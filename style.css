@@ -1,6 +1,10 @@
 
+.body{
+    padding: 0;
+}
+
 .header {
-    background: url(https://i.postimg.cc/bYRG7qP3/backg.jpg) bottom center no-repeat;
+    background: url('https://i.postimg.cc/bYRG7qP3/backg.jpg') bottom center no-repeat;
     flex-direction: column;
     align-content: center;
     display: flex;
