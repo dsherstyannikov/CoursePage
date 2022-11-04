@@ -35,6 +35,8 @@
 }
 
 .Grid {
+    margin-inline-end: 30px;
+    padding-inline-start: 30px;
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;
