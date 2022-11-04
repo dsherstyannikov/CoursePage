@@ -1,0 +1,136 @@
+/** {
+    box-sizing: border-box;
+}*/
+
+
+.header {
+    /*background-color: #fca311;*/
+    background: url(../imgs/backg.jpg) bottom center no-repeat;
+    /*background-color: #14213d;*/
+    flex-direction: column;
+    align-content: center;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    color: #ffffff;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.header-desc{
+   margin: auto;
+   font-size: large;
+}
+
+/*правило для элементов main*/
+.main {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background: #CAF0F8;*/
+}
+
+/*правило для элементов относящихся к классу a_footer*/
+.a_footer {
+    display: block;
+}
+
+.Reviews {
+    /*max-width: 1170;*/
+    
+    text-align: center;
+    width: 100%;
+    /*padding: 10px;*/
+    /*border: 2px solid rgb(112, 114, 212);*/
+    border-radius: 20px;
+}
+
+.Grid {
+    margin-inline-end: 30px;
+    padding-inline-start: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+    /*background: blue;*/
+    /*padding-left: -25px;*/
+}
+
+.item {
+    box-shadow: 10px;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 30px;
+    /*width: 33.3333%;*/
+    flex: 1;
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+    background-color: #e5e5e5;
+    box-shadow: 0px 6px 10px -5px rgba(0, 0, 0, 0.25)
+}
+
+.pic{
+}
+
+.footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #14213d;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+
+.adress {
+    color: #ffffff;
+    
+    text-align: left;
+
+}
+
+.a_footer{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.a_footer:hover{
+    text-decoration: underline;
+}
+
+@media print{
+    
+    .header {
+        visibility: hidden;
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+        height: 150px;
+        color: rgb(88, 51, 255);
+        text-align: center;
+    }
+}
+
+@media (max-width:600px){
+    
+    .header-h{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .header-desc{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: small;
+    }
+    .Grid{
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+    .Reviews{
+        /*padding: 0px;
+        margin: 0px;*/
+    }
+    .item{
+        /*padding: 20px;
+        margin: 30px;*/
+    }
+}
+
