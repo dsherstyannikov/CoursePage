@@ -1,6 +1,6 @@
 
 .header {
-    background: url(../imgs/backg.jpg) bottom center no-repeat;
+    background: url(/imgs/backg.jpg) bottom center no-repeat;
     flex-direction: column;
     align-content: center;
     display: flex;
